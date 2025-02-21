@@ -34,3 +34,26 @@ button {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+.pincode-display.success {
+    border-color: green;
+    background-color: lightgreen;
+}
+
+.pincode-display.error {
+    border-color: red;
+    background-color: lightcoral;
+}
+
+.message {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
