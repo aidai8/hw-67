@@ -1,8 +1,9 @@
 import {configureStore} from '@reduxjs/toolkit';
+import PINCodeImitatorReducer from "../PINCodeImitator/PINCodeImitatorSlice.ts";
 
 export const store = configureStore({
     reducer: {
-
+        pincode: PINCodeImitatorReducer,
     }
 });
 
